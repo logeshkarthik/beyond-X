@@ -1,230 +1,219 @@
 <!DOCTYPE html>
-<!--- ->
+<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Xbook</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
-  <body>
-<div class="grid-container">
-  <div class="header">
-   
- 
-  <div class="sidemenu">
+
+<head>
+  <meta charset="utf-8">
+  <title>Xbook</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="header">
+      <div class="sidemenu">
         <nav class="sidebar show">
-                <div class="text">Xbook</div>
+          <div class="text">Xbook</div>
           <ul>
-          <li class="active"><a href="#"><img src="./assets/dashboard.svg" alt="dashboard"> Dashboard</a></li>
-          <li><a href="#"><a href="#"><img src="./assets/order.svg" alt="dashboard"> Order</a></li>
-          <li><a href="#"><img src="./assets/menu.svg" alt="dashboard"> Menu</a></li>
-          <li>
-          <a href="#" class="serv-btn">Transactions<span class="fas fa-caret-down second"></span></a>
-                  <ul class="serv-show">
-                      <li><a href="#">Add Types</a></li>
-                      <li><a href="#">Inventory</a></li>
-                  </ul>
-          </li>
-          <li><a href="#">Feedback</a></li>
-          <!-- <li>
-             <div class="flex-container">
-                  <p>Toggle</p> <label class="switch"><input type="checkbox"><span class="slider round"></span></label>
-             </div> 
-          </li> -->
+            <li class="active"><a href="#"> Dashboard</a></li>
+            <li><a href="#"><a href="#"> Order</a></li>
+            <li><a href="#"> Menu</a></li>
+            <li>
+              <a href="#" class="serv-btn">Transactions<span class="fas fa-caret-down second"></span></a>
+              <ul class="serv-show">
+                <li><a href="#">Add Types</a></li>
+                <li><a href="#">Inventory</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Feedback</a></li>
+            </li>
           </ul>
-          </nav>
-  </div>
-    <div>
-  <div class="main" style="margin:25px;">
-  <div style=" margin-left:50%;">
-  </div>
-
-      
-             <form action="" class="grid-wrapper-add-menu-1">
-                 <div class="menu-editor-1"  style=" margin-left:100px">
-                     <div > <ul style="list-style-type:none;"><li style="display:inline;">
-                          <span style=""> <h3>order tables</h3> </span></li><li style="display:inline;"><button class="alt-buttons" style="float:right;top:0;"> Create new order</button> </li>
-						   </ul>
-                           
-
-                     </div><br><br>
-                    
-<button>
-<style>
-.table-menu{
-margin:20px;
-width: 300px;
-height: 74px;
-left: 1034px;
-top: 165px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-border-radius: 2px;
-
-background: white;
-border-radius: 2px;
-}
-.inner-table-menu{
-width: 8px;
-height: 74px;
-
-
-background: #1FC658;
-border-radius: 2px 0px 0px 2px;
-
-}
-.flexcontainer {
-  display: flex;
-
-  background-color:#DCDCDC;
-  border:0;
-}
-.table-number{
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-}
-.flexcontainer > div {
-  background-color: white;
-  width: 75px;
- margin:3px;
- margin-bottom:10px;
-  text-align: center;
-  line-height: 75px;
-
-  font-size: 20px;
-  }
-
- #t1 {
- 
-  tab-size: 3;
-}
-.onilne-orders{
-
-width: 649px;
-height: 241px;
-left: 312px;
-top: 526px;
-
-background: #FFFFFF;
-border-radius: 2px;
-
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-border-radius: 6px;
-padding:5px;
-}
-</style>
-<div class="flexcontainer"style="border:0;">
-  <div class="table-number">1</div>
-  <div class="table-number">2</div>
-  <div class="table-number">3</div>  
-  <div class="table-number">4</div>
-  <div class="table-number">5</div>
-  <div class="table-number">6</div>  
-  <div class="table-number">7</div>
-  <div class="table-number">8</div>
-</div>
-<div class="flexcontainer">
-  <div class="table-number">1</div>
-  <div class="table-number">2</div>
-  <div class="table-number">3</div>  
-  <div class="table-number">4</div>
-  <div class="table-number">5</div>
-  <div class="table-number">6</div>  
-  <div class="table-number">7</div>
-  <div class="table-number">8</div>
-</div>
-<div class="flexcontainer">
-  <div class="table-number">1</div>
-  <div class="table-number">2</div>
-  <div class="table-number">3</div>  
-  <div class="table-number">4</div>
-  <div class="table-number">5</div>
-  <div class="table-number">6</div>  
-  <div class="table-number">7</div>
-  <div class="table-number">8</div>
-</div>
-
-<div >
-                          <span style="text-align:left; font-size:20px;"> <h4>online orders</h4> </span><br>
-                           
-
- </div>
-
-<div class="order-container">
- <div class="onilne-orders" ><br></div>
-  
-</div>
-
-
-
-                    
-                    
-                 </div>
-                 <div>
-				
-                    <p><h3>Order updates</h3></p>
-<div class="table-menu">
-<div class="inner-table-menu" style="background: ;" >Table1
-
-
-</div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background: yellow;">
-<p style="padding:10px;">Table1  </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:tomato ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:pink ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:green ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:green ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:blue ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-<div class="table-menu">
-<div class="inner-table-menu" style="background:yellow ;">
-<p style="padding:10px;">Table1   </p></div>
-</div>
-                     
-                 </div>
-                </form>
+        </nav>
+      </div>
+      <div>
+        <div class="main">
+          <div class="grid-wrapper-order">
+            <div>
+                 <h2>Order Tables</h2>
             </div>
-  </div>  
-</div>
-  </body>
-  <script>
-        $('.feat-btn').click(function(){
-          $('nav ul .feat-show').toggleClass("show");
-          $('nav ul .first').toggleClass("rotate");
-        });
-        $('.serv-btn').click(function(){
-          $('nav ul .serv-show').toggleClass("show1");
-          $('nav ul .second').toggleClass("rotate");
-        });
-        $('nav ul li').click(function(){
-          $(this).addClass("active").siblings().removeClass("active");
-        });
+            <div>
+                <button class="alt-buttons">Create New Order</button>
+            </div>
+        </div>
+          <div class="grid-wrapper-order">
+            <div class="menu-editor-1">
+              <div class="list-of-tables">
+                <div class="flexcontainer">
+                  <div class="table-number">1</div>
+                  <div class="table-number">2</div>
+                  <div class="table-number">3</div>
+                  <div class="table-number">4</div>
+                  <div class="table-number">5</div>
+                  <div class="table-number">6</div>
+                  <div class="table-number">7</div>
+                  <div class="table-number">8</div>
+                </div>
+                <div class="flexcontainer">
+                  <div class="table-number">1</div>
+                  <div class="table-number">2</div>
+                  <div class="table-number">3</div>
+                  <div class="table-number">4</div>
+                  <div class="table-number">5</div>
+                  <div class="table-number">6</div>
+                  <div class="table-number">7</div>
+                  <div class="table-number">8</div>
+                </div>
+                <div class="flexcontainer">
+                  <div class="table-number">1</div>
+                  <div class="table-number">2</div>
+                  <div class="table-number">3</div>
+                  <div class="table-number">4</div>
+                  <div class="table-number">5</div>
+                  <div class="table-number">6</div>
+                  <div class="table-number">7</div>
+                  <div class="table-number">8</div>
+                </div>
+              </div>
 
-        $('.category-list ul li').click(function(){
-          $(this).addClass("active").siblings().removeClass("active");
-        });
+              <div class="online-orders">
+                <span style="text-align:left; font-size:20px;">
+                  <h4>online orders</h4>
+                </span>
+              </div>
 
-        $('.item-list ul li').click(function(){
-          $(this).addClass("active").siblings().removeClass("active");
-        });
+              <div class="order-container">
+                <div class="onilne-orders"><br></div>
+              </div>
+            </div>
 
-      </script>
+
+            <div class="order-status">
+              <p>
+                <h3>Order updates</h3>
+              </p>
+
+              
+              
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 1</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 2</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 3</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu awaiting-items">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 4</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 5</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+              <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 6</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 7</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  <div class="table-menu generate-bill">
+                <div class="inner-table-menu">
+				<ul class="ul-a">
+				<li class="li-a">Table 8</li> 
+				<li class="li-b" >2 mins ago</li>
+				</ul><br><ul class="order-placed"  >
+				<li class="li-c">order placed</li>
+				<li class="li-d">remaining items</li>
+				</ul>
+				</div>
+              </div>
+			  
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script>
+  $('.feat-btn').click(function () {
+    $('nav ul .feat-show').toggleClass("show");
+    $('nav ul .first').toggleClass("rotate");
+  });
+  $('.serv-btn').click(function () {
+    $('nav ul .serv-show').toggleClass("show1");
+    $('nav ul .second').toggleClass("rotate");
+  });
+  $('nav ul li').click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+
+  $('.category-list ul li').click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+
+  $('.item-list ul li').click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+</script>
+
 </html>
