@@ -415,4 +415,80 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     background: #F5F6F8;
     border-left-color: #FF5367;
   } 
+
+  .grid-wrapper-order{
+    display: grid;
+    grid-template-columns:auto 30%;
+    grid-column-gap: 1em;
+    width: 80%;
+    margin-left: 12em;
+    margin-top: 2em;
+  }
   
+  .table-menu{
+    margin:20px;
+    width: 300px;
+    height: 74px;
+    left: 1034px;
+    top: 165px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 2px;
+    border-left: 5px solid transparent;
+    background: white;
+    border-radius: 2px;
+    }
+
+.order-placed{
+  border-left-color: #1FC658;
+}
+
+.awaiting-items{
+  border-left-color: #FFA001;
+}
+
+.generate-bill{
+  border-left-color: #FF5367;
+}
+   
+
+    .flexcontainer {
+      display: flex;
+      border:0;
+    }
+
+    .table-number{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    }
+    .flexcontainer > div {
+      background-color: white;
+      width: 75px;
+     margin:3px;
+     margin-bottom:10px;
+      text-align: center;
+      line-height: 75px;
+    
+      font-size: 20px;
+      }
+    
+     #t1 {
+     
+      tab-size: 3;
+    }
+    .onilne-orders{
+    
+    width: 649px;
+    height: 241px;
+    left: 312px;
+    top: 526px;
+    
+    background: #FFFFFF;
+    border-radius: 2px;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    padding:5px;
+    }
+
+    .table-content{
+      display: flex;
+    }
