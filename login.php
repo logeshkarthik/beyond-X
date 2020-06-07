@@ -96,7 +96,7 @@
 		<div class="column" style="background-color: lightgrey;"></div>
 		<div class="login-box column">
 			<div style="padding-top: 100px; padding-left: 100px; align: center;">
-				<form class="font">
+				<form class="font" action="">
 					<span class="text">Welcome to Xbook </span><br> <br> <span
 						class="email-phonenumber">Email or phonenumber</span><br> 
 						<input class="text-box" type="text" name="emailPhonenumber" placeholder="  Enter name or phone number">
@@ -104,8 +104,9 @@
 						style="font-weight: 500; font-size: 14px; color: red;">
 						enter a valid email address</span><br> <br> <br> <input
 						class="submit-button" type="submit" value="Login">
+			        </form>
 			</div>
-			</form>
+			
 		</div>
 
 
